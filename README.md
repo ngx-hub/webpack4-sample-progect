@@ -81,14 +81,19 @@ path.resolve(__dirname, './dist')
 ```bash
 npm i babel-core
       babel-loader
-      babel-preset-env      # постоянно обновляющиеся настройки по переводу перегонки с новогостандарта в старый
+      babel-preset-env      # постоянно обновляющиеся настройки по переводу перегонки с нового стандарта в старый
       babel-preset-stage-3  # уровень перегонки
+# COPY
+npm i babel-core babel-loader babel-preset-env babel-preset-stage-3 -D
 ```
+
 
 # `css`
 ```bash
 npm i style-loader  # добавляет стили в <head>
-      css-loader    
+      css-loader
+# COPY
+npm i style-loader css-loader -D
 ```
 
 Можно импортировать стили в js файл `import './css/style.css';`, при этом сами стилили будут собраны вебпаком в js

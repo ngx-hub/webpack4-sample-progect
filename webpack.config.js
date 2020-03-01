@@ -7,7 +7,7 @@ let config = {
         // path: './dist/', -> The output directory as **absolute path** (required).
         path: path.resolve(__dirname, './dist'),
         filename: 'main.js',
-        publicPath: 'dist/' // относительная ссылка на данный файл, которая будеи подставлятся из браузера
+        publicPath: 'dist/' // относительная ссылка на данный файл, которая будет подставлятся из браузера
     },
     devServer: {
         overlay: true,  // show error in overlay
